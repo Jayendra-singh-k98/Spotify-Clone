@@ -1,0 +1,66 @@
+.border{
+    border: 1px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+/* WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    height: 10px; /* Height of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background for the track */
+    border-radius: 10px; /* Rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #444; /* Dark grey thumb color */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 2px solid #1e1e1e; /* Matching dark border for spacing */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #666; /* Lighter grey on hover for visibility */
+  }
+  
+  /* Firefox */
+  body  .cardConatiner{
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #444 #1e1e1e; /* Thumb color and track color */
+  }
+  
